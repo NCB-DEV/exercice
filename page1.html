@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 1</title>
+    <!-- <link rel="stylesheet" href="/style/style.css"> -->
+</head>
+<body>
+    <style>
+        input:hover{
+            color: red;
+        }
+        input:focus{
+            background-color: blue;
+        }
+
+        table,td,th{
+            border: 1px solid black;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+        
+    </style>
+    <header>
+        <h1>LOGO</h1>
+        <nav>
+            <a href="index.html">accueil</a>
+            <a href="page1.html">deuxieme page</a>
+            <a href="/page_interne/page2.html">troisieme page</a>
+            <a href="#">message<sup>5</sup></a>
+        </nav>
+    </header>
+    <div>
+        <form >
+            <div>
+                <label for="nom">nom</label>
+            <input type="text" id="nom" name="name" placeholder="saisir votre nom" required >
+            </div>
+            <div>
+                <label for="tel">Telephone</label>
+                <input type="number" id="tel">
+            </div>
+            <div>
+                <input type="radio"> masculin
+                <input type="radio"> Feminin
+            </div>
+            <div>
+                <input type="checkbox"> 5
+                <input type="checkbox"> 10
+            </div>
+            <div>
+                <label for="text">Utilitaire</label>
+                <textarea name="" id="text" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button>Reset</button>
+            <input type="button" value="annuler">
+            </div>
+        </form>
+    </div>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Telephone</th>
+            <th>sexe</th>
+        </tr>
+        <tr>
+            <td>etienne</td>
+            <td>256-854-9875</td>
+            <td>uuuuuuu</td>
+            <td>jjjjjjjj</td>
+            <td>kkkkkkkkk</td>
+        </tr>
+        <tr>
+            <td>juillette</td>
+            <td>210-879-987</td>
+            <td>feminin</td>
+        </tr>
+    </table>
+</body>
+</html>
